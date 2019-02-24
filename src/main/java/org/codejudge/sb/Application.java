@@ -1,4 +1,4 @@
-package org.smartenspaces.sb;
+package org.codejudge.sb;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"org.smartenspaces.sb"})
+@ComponentScan(basePackages = {"org.codejudge.sb"})
 public class Application {
 	private static Logger LOGGER = LoggerFactory.getLogger(Application.class);
 	

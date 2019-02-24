@@ -1,4 +1,4 @@
-package org.smartenspaces.sb.config;
+package org.codejudge.sb.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

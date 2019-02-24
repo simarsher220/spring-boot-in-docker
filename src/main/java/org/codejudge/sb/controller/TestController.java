@@ -1,4 +1,4 @@
-package org.smartenspaces.sb.controller;
+package org.codejudge.sb.controller;
 
 import java.io.IOException;
 
