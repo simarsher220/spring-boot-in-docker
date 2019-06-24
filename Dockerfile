@@ -5,7 +5,7 @@ WORKDIR /tmp/
 
 EXPOSE 8080
 
-RUN ./mvn clean install
+RUN mvn clean install
 
 ADD /target/spring-boot-in-docker.jar spring-boot-in-docker.jar
 
