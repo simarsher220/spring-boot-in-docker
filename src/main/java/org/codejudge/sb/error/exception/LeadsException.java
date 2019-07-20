@@ -2,7 +2,7 @@ package org.codejudge.sb.error.exception;
 
 import org.springframework.http.HttpStatus;
 
-public class LeadsException extends Exception {
+public class LeadsException extends Throwable {
 
     private HttpStatus status;
     private Boolean isEmpty;
